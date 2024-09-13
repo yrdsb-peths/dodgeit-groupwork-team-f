@@ -10,11 +10,6 @@ public class Snake extends Actor
         {
             reset();
         }
-        
-        if(isTouching(Hero.class))
-        {
-            getWorld.removeObject(this);
-        }
     }
     public void reset()
     {
